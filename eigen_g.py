@@ -1,10 +1,12 @@
-#Largest Eigen value (Guidelines 6a)
+#Largest Eigen value (Guidelines 6b)
 
 import numpy as np 
 import math as mt
 
-a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-x = np.array([1, 2, 3])
+with open('input.txt','r') as f1:
+    R = int(f1.readline())
+    a = np.array([[float(f1.readline()) for i in range(R)] for j in range(R)])
+    x = np.array([float(f1.readline()) for i in range(R)])
 
 f2 = open('output.txt','w')
 y=x.copy()
