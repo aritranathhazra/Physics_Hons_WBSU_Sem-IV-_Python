@@ -1,38 +1,36 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Define the differential equation to solve
-def f(t, y):
-    return -y+t**2+2*t+4
+# Define the differential equation to solve: x_dot = cos(πt)
+def f(t, x):
+    return np.cos(np.pi * t)
 
 # Define the initial conditions
 t0 = 0
-y0 = 0.5
+x0 = 0
 
 # Define the step size and number of steps
-h = 0.1
-n = 100
+h = 0.01
 
-# Initialize arrays for t and y values
+n = int((10 - t0) / h)  # Calculate the number of steps based on the interval [0, 10]
+
+# Initialize arrays for t and x values
 t = np.zeros(n+1)
-y = np.zeros(n+1)
+x = np.zeros(n+1)
 
 # Set initial values
 t[0] = t0
-y[0] = y0
+x[0] = x0
 
 # Solve the ODE using the Euler method
 for i in range(n):
     t[i+1] = t[i] + h
-    y[i+1] = y[i] + h * f(t[i], y[i])
-
-# Write the results to a file
-with open('euler.dat', 'w') as f:
-    for i in range(n+1):
-        f.write('{} {}\n'.format(t[i], y[i]))
+    x[i+1] = x[i] + h * f(t[i], x[i])
 
 # Plot the results
-plt.plot(t, y)
+plt.plot(t, x)
 plt.xlabel('t')
-plt.ylabel('y')
+plt.ylabel('x')
+plt.title('Numerical Solution of x_dot = cos(πt)')
 plt.show()
+
