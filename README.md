@@ -32,7 +32,7 @@ Each topic has its own folder in the repository, containing the relevant impleme
 ## How to Use
 
 1. Clone this repository to your local machine using the following command:
-
+https://github.com/aritranathhazra/Physics_Hons_WBSU_Sem-IV-_Python.git
 
 
 2. Navigate to the specific folder for the assignment you want to explore.
