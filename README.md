@@ -47,9 +47,13 @@ Contributions to this repository are welcome. If you find any errors, improvemen
 
 ## Contact
 
-If you have any questions or need assistance, you can reach out to me:
+If you have any questions or need assistance, you can reach out to me or my friend:
 
 - Name: Aritra Nath Hazra
 - GitHub: [aritranathhazra](https://github.com/aritranathhazra)
+
+
+- Name: Deep Kr. Ghosh
+- GitHub: [deepkrg17](https://github.com/deepkrg17)
 
 Let's learn and explore the exciting world of mathematical physics together!
