@@ -1,9 +1,8 @@
-# Physics_Hons_WBSU_Sem-IV-_Python
-# WBSU Physics Hons Mathematical Physics 4th Sem Practical
+## _WBSU Physics Hons_ - Python Practicals
 
-Welcome to the repository for the Mathematical Physics practical assignments of the 4th semester at WBSU (West Bengal State University). This repository contains implementations and comparisons of various numerical methods and concepts related to mathematical physics.
+This repository contains implementations and comparisons of various numerical methods and concepts related to mathematical physics.
 
-## Contents
+### Contents
 
 The practical assignments in this repository cover the following topics:
 
@@ -25,21 +24,7 @@ The practical assignments in this repository cover the following topics:
 16. Gauss-Seidel Iteration
 17. Inverse using Gauss-Seidel Iteration
 
-## Structure
-
 Each topic has its own folder in the repository, containing the relevant implementation, code, and any necessary files. You can navigate through the folders to find the specific practical assignments you're interested in.
-
-## How to Use
-
-1. Clone this repository to your local machine using the following command:
-https://github.com/aritranathhazra/Physics_Hons_WBSU_Sem-IV-_Python.git
-
-
-2. Navigate to the specific folder for the assignment you want to explore.
-
-3. Inside each folder, you'll find the code files, data files (if applicable), and a README with detailed explanations and instructions.
-
-4. Feel free to explore, modify, and experiment with the code to understand and learn from the concepts.
 
 ## Contributions
 
@@ -49,11 +34,8 @@ Contributions to this repository are welcome. If you find any errors, improvemen
 
 If you have any questions or need assistance, you can reach out to me or my friend:
 
-- Name: Aritra Nath Hazra
-- GitHub: [aritranathhazra](https://github.com/aritranathhazra)
+- Aritra Nath Hazra ([aritranathhazra](https://github.com/aritranathhazra))
 
-
-- Name: Deep Kr. Ghosh
-- GitHub: [deepkrg17](https://github.com/deepkrg17)
+- Deep Kr. Ghosh ([deepkrg17](https://github.com/deepkrg17))
 
 Let's learn and explore the exciting world of mathematical physics together!
