@@ -9,15 +9,15 @@ The practical assignments in this repository cover the following topics:
 <details>
     <summary>Sem-IV</summary>
 
-    1. Fourier Transform
-    2. Gauss-Jordan Elimination
-    3. Gauss-Seidel Iteration
-    4. Runge-Kutta 4th Order (RK4) Method
-    5. Euler Method Comparison with RK4
-    6. Runge-Kutta 2nd Order (RK2) Method Comparison with Euler
-    7. Comparison of RK2, RK4, and Euler Methods
-    8. Boundary Heat Flow Problem
-    9. Boundary Laplace Equation Problem
+     1. Fourier Transform
+     2. Gauss-Jordan Elimination
+     3. Gauss-Seidel Iteration
+     4. Runge-Kutta 4th Order (RK4) Method
+     5. Euler Method Comparison with RK4
+     6. Runge-Kutta 2nd Order (RK2) Method Comparison with Euler
+     7. Comparison of RK2, RK4, and Euler Methods
+     8. Boundary Heat Flow Problem
+     9. Boundary Laplace Equation Problem
     10. Boundary Wave Equation Problem
     11. Dirac Equation
     12. Eigenvalues and Eigenvectors using 3x3 Matrices
@@ -31,7 +31,7 @@ The practical assignments in this repository cover the following topics:
 <details>
     <summary>Sem-V</summary>
 
-    1. Bisection Method
+     1. Bisection Method
 </details>
 
 ### Contributions
