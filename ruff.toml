@@ -1,0 +1,7 @@
+select = ["E4", "E7", "F"]
+extend-select = ["I"]
+
+fix = false
+
+[format]
+line-ending = "auto"

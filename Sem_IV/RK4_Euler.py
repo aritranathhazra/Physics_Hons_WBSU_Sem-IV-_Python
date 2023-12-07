@@ -2,8 +2,10 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
+
 def f(t, x):
     return np.cos(math.pi * t)
+
 
 t0, x0, h = 0, 0, 0.05
 data = 10
@@ -33,8 +35,8 @@ for i in range(data):
     X_rk4.append(x)
 
 plt.figure(1)
-plt.plot(T, X_euler, '-', lw=4, c='m', label='Euler')
-plt.plot(T, X_rk4, '-', lw=4, c='b', label='RK4')
-plt.legend(loc='best', prop={'size': 16})
-plt.title('Comparison between Euler and RK4 method', size=18)
+plt.plot(T, X_euler, "-", lw=4, c="m", label="Euler")
+plt.plot(T, X_rk4, "-", lw=4, c="b", label="RK4")
+plt.legend(loc="best", prop={"size": 16})
+plt.title("Comparison between Euler and RK4 method", size=18)
 plt.show()
