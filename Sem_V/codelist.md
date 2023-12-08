@@ -2,3 +2,4 @@
 
    Q. [Bisection Method](bisection.py)  
   Q3. [Energy eigs for 1D square using direct matrix method](Q3.py)  
+  Q4. [Energy eigs for 1D square using shooting method](Q4_Infinite.py)  
