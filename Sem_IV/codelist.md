@@ -1,1 +1,19 @@
-Here is the list of codes for Sem_IV :
+### Here is the list of codes for Sem_IV :
+
+Q1a1. [Euler method](euler.py)  
+Q1a2. [RK2 method](RK2.py)  
+Q1a3. [RK4 method](RK4.py)  
+Q1a4. [Comparsion between Euler, RK2 & Rk4 method](rk2_rk4_euler.py)  
+ Q1b. [How to reduce the step size to one fifth](Q1b.py)  
+ Q1c. [Hamilton's eqn of 1D motion when attached with string](hamilton.py)  
+Q3ac. [Gauss Elemination method](gauss_elemination.py)  
+Q3bc. [Gauss Jordon method](Gauss_jordon.py)  
+ Q4a. [Gauss Seidal method](Gauss_seidal.py)  
+Q4bc. [Matrix Inverse by Gauss Seidal method](seidal_inverse.py)  
+ Q6a. [Largest Eigen value by Power method](eigen_power.py)  
+ Q6b. [Generalisation of Q6a code with file I/O](eigen_power_g.py)  
+ Q7a. [Laplace equation in 2D](boundary_laplace.py)  
+ Q7b. [1D Fourier Heat equation](boundary_heatflow.py)  
+ Q7d. [Wave equation in 1D on a string fixed at two ends](boundary_wave.py)  
+ Q9a. [Fourier transform](Fourier.py)  
+ Q9b. [Dirac delta function](dirac.py)  

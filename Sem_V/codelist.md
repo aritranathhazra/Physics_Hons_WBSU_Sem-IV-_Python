@@ -1,1 +1,4 @@
-Here is the list of codes for Sem_V :
+### Here is the list of codes for Sem_V :
+
+   Q. [Bisection Method](bisection.py)  
+  Q3. [Energy eigs for 1D square using direct matrix method](Q3.py)  

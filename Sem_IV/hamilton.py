@@ -42,7 +42,6 @@ for i in range(n):
     l4 = h * g(t + h, x + k3, z + l3)
     x += (k1 + 2 * k2 + 2 * k3 + k4) / 6
     z += (l1 + 2 * l2 + 2 * l3 + l4) / 6
-    z += (l1 + 2 * l2 + 2 * l3 + l4) / 6
     X1.append(x)
     Z1.append(z)
     T1.append(t)
