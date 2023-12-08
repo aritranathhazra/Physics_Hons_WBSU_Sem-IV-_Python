@@ -1,8 +1,9 @@
-# Dirac delta (Guidelines 9(b))
+#  Q9b  Dirac delta function
 import math as cm
+
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy.integrate as intg
-import matplotlib.pyplot as plt
 
 sig = float(input("Initial value of Sigma = "))
 
@@ -39,8 +40,8 @@ print(
 )
 
 plt.plot(sigma, a)
-plt.title("Value of integration for $f(x)=log(x)$ as a function of $\sigma$")
-plt.xlabel("$\sigma$")
+plt.title(r"Value of integration for $f(x)=log(x)$ as a function of $\sigma$")
+plt.xlabel(r"$\sigma$")
 plt.ylabel("Value of integration")
 plt.show()
 

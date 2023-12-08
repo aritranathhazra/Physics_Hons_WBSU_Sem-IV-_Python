@@ -1,3 +1,4 @@
+#  Q3  Energy eigs for 1D square using direct matrix method
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.integrate import simps
@@ -41,7 +42,7 @@ for i in range(len(z)):
     else:
         plt.plot(x, y, "+", label="1st excited state")
 plt.xlabel("$x$")
-plt.ylabel("$\psi (x)$")
+plt.ylabel(r"$\psi (x)$")
 plt.legend()
 plt.title("Wave functions for one dimensional infinite square well ")
 plt.show()
@@ -57,7 +58,7 @@ for i in range(len(z)):
     else:
         plt.plot(x, pd, "+", label="n=2")
 plt.xlabel("$x$")
-plt.ylabel("$|\psi (x)|^2$")
+plt.ylabel(r"$|\psi (x)|^2$")
 plt.legend()
 plt.title(
     "Probability density of ground state(n=1) and 1st excited state(n=2) \nfor one dimensional infinite square well "

@@ -1,6 +1,6 @@
-import numpy as np
+#  Q7b  1D Fourier Heat equation
 import matplotlib.pyplot as plt
-
+import numpy as np
 
 c = np.linspace(0, 1, 101)
 u = np.exp(-((c) ** 2) / 0.001)  # continuous heat at end point x=0

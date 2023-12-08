@@ -1,17 +1,17 @@
-# Solution by Gauss Seidal method( Guidelines 4(a))
+#  Q4a  Gauss Seidal method
 
 import numpy as np
 
 R = int(input("Enter the number of equations:"))
 
 print("Enter the coefficients equationwise:")
-a = np.array([[float(input()) for i in range(R)] for j in range(R)])
+a = np.array([[float(input()) for _ in range(R)] for _ in range(R)])
 
 print("Enter the r.h.s constant numbers equationwise: ")
-b = np.array([float(input()) for i in range(R)])
+b = np.array([float(input()) for _ in range(R)])
 
 print("Enter the guess values of the variables: ")
-x = np.array([float(input()) for i in range(R)])
+x = np.array([float(input()) for _ in range(R)])
 
 err = 1.0
 factor = 0.0

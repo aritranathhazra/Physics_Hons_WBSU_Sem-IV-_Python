@@ -1,5 +1,6 @@
-import numpy as np
+#  Q7a  Laplace equation in 2D
 import matplotlib.pyplot as plt
+import numpy as np
 
 N = 100
 iter = 10000
@@ -9,22 +10,12 @@ for k in range(N):
 E = []
 Niter = range(iter)
 
-# for iter in Niter:
-#     v0 = v.copy()
-#     for i in range(1, N -1):
-#         for j in range(1, N -1):
-#             v[i,j] = 0.25*(v[i+1,j]+ v[i-1, j] + v[i, j+1] + v[i, j-1])
-#     err = np.sum((v - v0)**2)
-#     E.append(err)
-
 for iter in Niter:
     v0 = v.copy()
     v[1:-1, 1:-1] = 0.25 * (v[:-2, 1:-1] + v[2:, 1:-1] + v[1:-1, :-2] + v[1:-1, 2:])
     err = np.sum((v - v0) ** 2)
     E.append(err)
 
-
-from mpl_toolkits.mplot3d import Axes3D
 
 x = range(0, N, 2)
 y = range(0, N, 2)

@@ -1,12 +1,13 @@
-# Largest Eigen value (Guidelines 6b)
+#  Q6b  Generalisation of Q6a code with file I/O
+
+import math as mt
 
 import numpy as np
-import math as mt
 
 with open("input.txt", "r") as f1:
     R = int(f1.readline())
-    a = np.array([[float(f1.readline()) for i in range(R)] for j in range(R)])
-    x = np.array([float(f1.readline()) for i in range(R)])
+    a = np.array([[float(f1.readline()) for _ in range(R)] for _ in range(R)])
+    x = np.array([float(f1.readline()) for _ in range(R)])
 
 f2 = open("output.txt", "w")
 y = x.copy()

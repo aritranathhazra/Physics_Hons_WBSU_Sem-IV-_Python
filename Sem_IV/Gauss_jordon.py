@@ -1,16 +1,14 @@
-# Solution by Gauss Jordon method
-# Determinant and Inverse of coefficient matrix (Guidelines 3(b) and (c))
+#  Q3bc  Gauss Jordon method
 
 import numpy as np
-import sys
 
 R = int(input("Enter the number of equations:"))
 
 print("Enter the coefficients equationwise:")
-a = np.array([[float(input()) for i in range(R)] for j in range(R)], dtype=float)
+a = np.array([[float(input()) for _ in range(R)] for _ in range(R)], dtype=float)
 
 print("Enter the r.h.s constant numbers equationwise: ")
-b = np.array([float(input()) for i in range(R)], dtype=float)
+b = np.array([float(input()) for _ in range(R)], dtype=float)
 
 p = np.copy(a)
 s = np.copy(a)

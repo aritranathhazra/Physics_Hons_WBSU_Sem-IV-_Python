@@ -1,16 +1,15 @@
-# Solution of equation by Gauss elemination with back substitution and
-# Determinant of coefficient matrix (Guidelines 3(a) and (c))
+#  Q3ac  Gauss Elemination method
 
 import numpy as np
 
 R = int(input("Enter the number of equations:"))
 
 print("Enter the coefficients equationwise:")
-a = np.array([[float(input()) for i in range(R)] for j in range(R)])
+a = np.array([[float(input()) for _ in range(R)] for _ in range(R)])
 p = np.copy(a)
 
 print("Enter the r.h.s constant numbers equationwise: ")
-b = np.array([float(input()) for i in range(R)])
+b = np.array([float(input()) for _ in range(R)])
 
 for i in range(0, R - 1):  # Determinant calculation
     for j in range(i + 1, R):

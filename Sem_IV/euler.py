@@ -1,3 +1,4 @@
+#  Q1a1  Euler method
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -12,9 +13,8 @@ t0 = 0
 x0 = 0
 
 # Define the step size and number of steps
-h = 0.01
-
-n = int((10 - t0) / h)  # Calculate the number of steps based on the interval [0, 10]
+h = 0.05
+n = int((10 - t0) / h)
 
 # Initialize arrays for t and x values
 t = np.zeros(n + 1)

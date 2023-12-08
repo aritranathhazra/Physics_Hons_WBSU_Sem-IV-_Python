@@ -1,8 +1,9 @@
-# Fourier transform(Guideline 9(a))
+#  Q9a  Fourier transform
 import math as cm
+
+import matplotlib.pyplot as plt
 import numpy as np
 import scipy.integrate as intg
-import matplotlib.pyplot as plt
 
 ki = float(input("Initial value of k ="))
 kf = float(input("Final value of k ="))

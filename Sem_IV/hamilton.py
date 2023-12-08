@@ -1,5 +1,6 @@
-import numpy as np
+#  Q1c  Hamilton's eqn of 1D motion when attached with string
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def f(t, x, z):
@@ -40,6 +41,7 @@ for i in range(n):
     k4 = h * f(t + h, x + k3, z + l3)
     l4 = h * g(t + h, x + k3, z + l3)
     x += (k1 + 2 * k2 + 2 * k3 + k4) / 6
+    z += (l1 + 2 * l2 + 2 * l3 + l4) / 6
     z += (l1 + 2 * l2 + 2 * l3 + l4) / 6
     X1.append(x)
     Z1.append(z)

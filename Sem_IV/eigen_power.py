@@ -1,7 +1,8 @@
-# Largest Eigen value (Guidelines 6a)
+#  Q6a  Largest Eigen value by Power method
+
+import math as mt
 
 import numpy as np
-import math as mt
 
 a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 x = np.array([1, 2, 3])

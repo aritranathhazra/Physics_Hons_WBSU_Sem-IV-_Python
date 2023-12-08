@@ -1,4 +1,4 @@
-# Matrix Inverse by Gauss Seidal method(Guidelines 4(b)and(c))
+#  Q4bc  Matrix Inverse by Gauss Seidal method
 
 import numpy as np
 
@@ -6,7 +6,7 @@ R = int(input("Enter the number of equations:"))
 
 
 print("Enter the coefficients equationwise:")
-a = np.array([[float(input()) for i in range(R)] for j in range(R)], dtype=float)
+a = np.array([[float(input()) for _ in range(R)] for _ in range(R)], dtype=float)
 p = np.copy(a)
 
 for i in range(0, R - 1):  # determinant of coefficient matrix
@@ -22,7 +22,7 @@ print("Determinant of the given coefficient matrix = ", det1)
 b = np.identity(R)
 
 print("Enter the guess values of the elements of inverse matrix: ")
-x = np.array([[float(input()) for i in range(R)] for j in range(R)], dtype=float)
+x = np.array([[float(input()) for _ in range(R)] for _ in range(R)], dtype=float)
 
 err = 1.0
 factor = np.zeros((R, R))

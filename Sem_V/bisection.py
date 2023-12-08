@@ -1,3 +1,5 @@
+#  Q  Bisection Method
+
 a, b = map(int, input("Initial Approximation (a, b) : ").split())
 m = (a + b) / 2
 

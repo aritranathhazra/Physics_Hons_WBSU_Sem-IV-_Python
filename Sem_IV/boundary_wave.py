@@ -1,5 +1,6 @@
-import numpy as np
+#  Q7d  Wave equation in 1D on a string fixed at two ends
 import matplotlib.pyplot as plt
+import numpy as np
 
 n = int(input(" enter the time step needed "))
 
